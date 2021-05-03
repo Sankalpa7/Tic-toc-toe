@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
 
+#This file only works in Jupyter Notebook.
 
 from IPython.display import clear_output
 
 def display_board(board):
-    clear_output()  # Remember, this only works in jupyter!
+    clear_output()  
     
     print('   |   |')
     print(' ' + board[7] + ' | ' + board[8] + ' | ' + board[9])
